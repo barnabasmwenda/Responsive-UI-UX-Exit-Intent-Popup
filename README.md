@@ -3,3 +3,6 @@ This custom designed modal allows dismissal by clicking outside or using the 'Di
 
 # How does it work?
 Exit intent works by tracking user behavior, detecting when a visitor is about to leave a webpage, and triggering a targeted popup or message at that critical moment. By analyzing mouse movement or scrolling patterns, it detects exit intent, prompting timely interventions like special offers or subscription prompts to re-engage users before they leave.
+
+# Why use an Exit Intent Popup? 
+This popup aims to retain users, prompt action, and gather information before they navigate away, boosting conversions.
