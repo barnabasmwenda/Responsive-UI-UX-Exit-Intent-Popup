@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Responsive UI/UX Exit Intent Popup</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="d-flex-center popup-body">
+        <h1>Responsive UI/UX Exit Intent Popup</h1>
+        <p class="mt-1">
+          This custom designed modal allows dismissal by clicking outside or
+          using the 'Dismiss' button. It saves the dismissal preference
+          ('Dismiss and don't show again') in the browser's Local Storage.
+        </p>
+      </div>
+      <div class="overlay" id="exitIntentOverlay">
+        <div class="popup-exit" id="exitIntentPopup">
+          <div class="d-flex-center-between popup-body">
+            <div class="d-flex-center-between">
+              <h2 class="d-flex-center">Don't Leave Just Yet!</h2>
+            </div>
+            <button class="secondary-button" id="closePopup">✕</button>
+          </div>
+          <div class="separator"></div>
+          <div class="popup-body">
+            <h3 class="color-primary">Get 10% Off Your Next Purchase!</h3>
+            <p class="mt-1">
+              Don't miss out on exclusive offers and updates! Sign up for our
+              newsletter now and receive a special 10% discount on your next
+              order. Be the first to know about our latest products, promotions,
+              and more.
+            </p>
+            <div class="mt-1 d-flex-center">
+              <label>
+                <input class="mr-0" type="checkbox" id="dontShowAgain" />Dismiss
+                and don't show this again
+              </label>
+            </div>
+          </div>
+          <div class="separator"></div>
+          <div class="buttons-section popup-body d-flex flex-end">
+            <button class="secondary-button mr-0" id="dismissModal">
+              Dismiss
+            </button>
+            <button class="main-button">Sign Up & Save 10%</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
